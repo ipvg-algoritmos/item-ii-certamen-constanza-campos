@@ -9,3 +9,9 @@
 # 4. Luego, solicita al usuario un número y llama a la función con ese valor
 
 # 👇 Aquí comienza tu código
+
+def mostrar_tabla (n):
+    for x in range(1,11):
+        resultados = (n*x)
+        print (f"{n} x {x} = {resultados}")
+mostrar_tabla(2) 
